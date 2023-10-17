@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>First Bootstrap</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+        <div class="container-fluid">
+            <div class="navbar-collapse">
+                <a class="navbar-brand" href="https://www.cmrdb.cs.pu.edu.tw/" target="_blank">
+                    <img src="cmrdb.jpg" style="width:300px;" class="rounded-pill">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a target="_blank" class="nav-link" href="https://www.pu.edu.tw/">靜宜大學首頁</a>
+                        </li>
+                        <li class="nav-item">
+                            <a target="_blank" class="nav-link"
+                                href="https://www.cmrdb.cs.pu.edu.tw/researchTeam/3">全端網頁小組</a>
+                        </li>
+                        <li class="nav-item">
+                            <a target="_blank" class="nav-link"
+                                href="https://www.cmrdb.cs.pu.edu.tw/member/workinggroup#">組織成員</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown">Dropdown</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Link4</a></li>
+                                <li><a class="dropdown-item" href="#">Link5</a></li>
+                                <li><a class="dropdown-item" href="#">Link6</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid p-5 bg-primary text-white text-center">
+        <h1>我的第一個Bootstrap網頁</h1>
+        <p>可以透過縮放來看整個效果</p>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-4" style="background-color:pink">
+                <h3>欄位1</h3>
+                <p>這邊的內容隨便打</p>
+                <p>這是第二段...</p>
+            </div>
+            <div class="col-sm-4" style="background-color:lightblue">
+                <h3>欄位2</h3>
+                <p>這邊的內容隨便打</p>
+                <p>這是第二段...</p>
+            </div>
+            <div class="col-sm-4" style="background-color:lightgreen">
+                <h3>欄位3</h3>
+                <p>這邊的內容隨便打。</p>
+                <p>這是第二段...</p>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-1" style="background-color: aqua;">
+                1
+            </div>
+            <div class="col-sm-1" style="background-color:aquamarine;">
+                2
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
